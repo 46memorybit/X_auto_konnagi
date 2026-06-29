@@ -1,0 +1,26 @@
+{
+  "name": "動画シェア PWA",
+  "short_name": "動画シェア",
+  "description": "GAS経由でTikTok動画情報を取得し、動画をbase64デコードしてWeb Share APIでシェアするPWA",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["entertainment", "social"],
+  "lang": "ja"
+}
